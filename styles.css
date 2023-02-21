@@ -1,0 +1,168 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
+
+.fa-star{
+    color: #AA0000;
+}
+
+
+
+/* -----HEADER----- */
+
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    margin: 20px auto;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+
+/* -----NAV------ */
+
+nav{
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    width: 100%;
+    padding: 10px;
+    background-color: #E8E8E8;
+    color: #404040;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    border-top: 1px solid #404040;
+    border-bottom: 1px solid #404040;
+}
+
+nav a:hover{
+    background-color: #404040;
+    color: #fff;
+    
+}
+
+
+
+/* -----MAIN----- */
+
+     
+    
+/*CAROUSEL*/
+
+.element{
+
+    margin: 0 20px 20px;
+    box-sizing: border-box;
+
+}
+
+.element img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.carousel{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.slick-next:before {
+    content: "\f0a4";
+}
+
+.slick-prev:before {
+    content: "\f0a5";
+}
+
+.slick-dots{
+    bottom: -50px;
+}
+
+
+.slick-next:before, .slick-prev:before {
+    font-family: "Font Awesome 6 free";
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75; 
+    color: #00F;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+    
+
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 18px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* -----FOOTER----- */
+
+
+
+
+footer p, footer a{
+    color: #E8E8E8;
+    font-size: 12px;
+    
+}
+
+
+footer{
+    text-align: center;
+    background-color:#383838;
+    padding: 10px;
+}
